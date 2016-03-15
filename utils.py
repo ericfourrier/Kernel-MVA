@@ -5,15 +5,15 @@
 Notes : helper for the run.py file
 """
 import numpy as np
-import matplotlib.pyplot as plt
-
-
-def plot_digit(row_data, reshape=True):
-    """ Take a row of data as input (1D array that will be transform to 2D array for picture representation) """
-    if reshape:
-        row_data = row_data.reshape(28, 28)
-    plt.imshow(row_data, cmap=plt.cm.gray)
-    plt.show()
+# import matplotlib.pyplot as plt
+#
+#
+# def plot_digit(row_data, reshape=True):
+#     """ Take a row of data as input (1D array that will be transform to 2D array for picture representation) """
+#     if reshape:
+#         row_data = row_data.reshape(28, 28)
+#     plt.imshow(row_data, cmap=plt.cm.gray)
+#     plt.show()
 
 
 def get_ytrain_dummy(Y, nb_digits=10):
